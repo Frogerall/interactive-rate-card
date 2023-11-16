@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.img-wrap {
+  background-color: rgba(255, 255, 255, 0.192);
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 23rem;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  margin: 2rem auto;
+}
+
+.rate-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate-result {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 8px;
+  border-radius: 1rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: rgba(241, 213, 161, 0.534);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  color: orange;
+  padding: 5px 15px;
+  max-width: fit-content;
+  background-color: rgba(255, 255, 255, 0.158);
+  border-radius: 1rem;
+}
+
+p {
+  color: lightgray;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+a {
+  padding: 0.5rem 1rem;
+  background-color: rgba(148, 143, 143, 0.363);
+  color: white;
+  border-radius: 50%;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+a:active {
+  opacity: 0.7;
+}
+
+.result {
+  display: none;
+}
+
+.open {
+  display: flex;
+}
+
+.active {
+  background-color: orange;
+}
