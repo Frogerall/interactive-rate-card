@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Frogerall/interactive-rate-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/Frogerall/interactive-rate-card)
+- Live Site URL: [Live Site](https://frogerall.github.io/interactive-rate-card/)
 
 ## My process
 
